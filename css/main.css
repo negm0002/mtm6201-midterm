@@ -56,13 +56,21 @@ ul{
 
 h1{
 	color: #FFFFFF;
+	padding: 20px;
 }
 
 a{
 	color: #626262;
     text-decoration: none;
+	padding: 20px;
 }
 
 header{
 	background-color: #B5B3BE;
+
+}
+
+body{
+	background-image: url("../images/fruits.jpg");
+	background-repeat: no-repeat;	
 }
