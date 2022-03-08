@@ -56,13 +56,12 @@ ul{
 
 h1{
 	color: #FFFFFF;
-	padding: 20px;
+	padding: 5px;
 }
 
 a{
 	color: #626262;
     text-decoration: none;
-	padding: 20px;
 }
 
 header{
@@ -71,6 +70,15 @@ header{
 }
 
 body{
+	position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    min-width: 100%;
 	background-image: url("../images/fruits.jpg");
-	background-repeat: no-repeat;	
+	background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
 }
