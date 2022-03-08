@@ -54,10 +54,15 @@ ul{
     justify-content: flex-end;
 }
 
+h1{
+	color: #FFFFFF;
+}
+
 a{
+	color: #626262;
     text-decoration: none;
 }
 
 header{
-	background-color: aliceblue;
+	background-color: #B5B3BE;
 }
