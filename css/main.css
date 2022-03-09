@@ -56,28 +56,35 @@ html{
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-
+.nav-block{
+	display: flex;
+	align-items: center;
+}
 
 ul{
     display: flex;
-    justify-content: flex-end;
 }
 
-h1{
+.nav-block > a{
+	text-decoration: none;
+	font-size: 44px;
+	font-weight: bold;
 	color: #FFFFFF;
-	padding: 5px;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-	font-size: 48px;
+	margin-right: 640px;
 }
 
-a{
-	color: #626262;
+li > a{
     text-decoration: none;
+	font-size: 26px;
+	color: #626262;
+	margin-right: 50px;
 }
 
 header{
 	background-color: #B5B3BE;
+	padding: 30px 50px;
 }
+
 
 
 .container{
@@ -89,8 +96,3 @@ header{
     background-repeat: no-repeat;
 }
 	
-
-p{
-	color: #FFFFFF;
-	text-align: center;
-}
