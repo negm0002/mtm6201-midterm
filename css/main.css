@@ -126,3 +126,9 @@ header{
     background-repeat: no-repeat;
 }
 
+footer{
+	color: #FFFFFF;
+	position:absolute;
+  	bottom: 190px;
+	margin-left: 50px;
+}
