@@ -86,7 +86,7 @@ header{
 }
 
 
-/* ------------  Home Page  ----------- */
+/* ------------ Home Page ----------- */
 .container1{
 	margin: 0 auto;
 	width: 100%;
@@ -96,7 +96,7 @@ header{
     background-repeat: no-repeat;
 }
 
-	/* ------------  Bananas Page  ----------- */
+/* ------------ Bananas Page ----------- */
 .container2{
 	margin: 0 auto;
 	width: 100%;
@@ -106,7 +106,7 @@ header{
     background-repeat: no-repeat;
 }
 
-/* ------------  Oranges Page  ----------- */
+/* ------------ Oranges Page ----------- */
 .container3{
 	margin: 0 auto;
 	width: 100%;
@@ -116,7 +116,7 @@ header{
     background-repeat: no-repeat;
 }
 
-/* ------------  Apples Page  ----------- */
+/* ------------ Apples Page ----------- */
 .container4{
 	margin: 0 auto;
 	width: 100%;
