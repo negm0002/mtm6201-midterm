@@ -86,8 +86,8 @@ header{
 }
 
 
-
-.container{
+/* ------------  Home Page  ----------- */
+.container1{
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1280px;
@@ -95,4 +95,34 @@ header{
 	background-image: url("../images/fruits.jpg");
     background-repeat: no-repeat;
 }
-	
+
+	/* ------------  Bananas Page  ----------- */
+.container2{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1280px;
+	min-height: 800px;
+	background-image: url("../images/bananas.jpg");
+    background-repeat: no-repeat;
+}
+
+/* ------------  Oranges Page  ----------- */
+.container3{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1280px;
+	min-height: 800px;
+	background-image: url("../images/oranges.jpg");
+    background-repeat: no-repeat;
+}
+
+/* ------------  Apples Page  ----------- */
+.container4{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1280px;
+	min-height: 800px;
+	background-image: url("../images/apples.jpg");
+    background-repeat: no-repeat;
+}
+
