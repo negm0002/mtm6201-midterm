@@ -85,6 +85,17 @@ header{
 	padding: 28px 50px;
 }
 
+.text p{
+	font-size: 20px;
+	line-height: 1.2;
+	color: #FFFFFF;
+	width: 55%;
+	height: 20%;
+	text-align: center;
+	margin-top: 33%;
+	margin-left: 20%;;
+}
+
 
 /* ------------ Home Page ----------- */
 .container1{
@@ -127,6 +138,7 @@ header{
 }
 
 footer{
+	font-size: 12px;
 	color: #FFFFFF;
 	position:absolute;
   	bottom: 190px;
