@@ -117,6 +117,13 @@ header{
     background-repeat: no-repeat;
 }
 
+.item_1:hover { 
+	color: #FFE960;
+	transition-duration: 0.5s;
+}
+
+
+
 /* ------------ Oranges Page ----------- */
 .container3{
 	margin: 0 auto;
@@ -125,6 +132,11 @@ header{
 	min-height: 800px;
 	background-image: url("../images/oranges.jpg");
     background-repeat: no-repeat;
+}
+
+.item_1:hover { 
+	color: #FFD72F;
+	transition-duration: 0.5s;
 }
 
 /* ------------ Apples Page ----------- */
@@ -137,6 +149,12 @@ header{
     background-repeat: no-repeat;
 }
 
+.item_1:hover { 
+	color: #D30F30;
+	transition-duration: 0.5s;
+}
+
+/* ------------ Footer ----------- */
 footer{
 	font-size: 12px;
 	color: #FFFFFF;
