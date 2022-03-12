@@ -98,7 +98,7 @@ header{
 
 
 /* ------------ Home Page ----------- */
-.container1{
+.container{
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1280px;
@@ -108,7 +108,7 @@ header{
 }
 
 /* ------------ Bananas Page ----------- */
-.container2{
+.container_1{
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1280px;
@@ -122,10 +122,12 @@ header{
 	transition-duration: 0.5s;
 }
 
-
+.container_1 .item_1{
+	color: #FFE960;
+}
 
 /* ------------ Oranges Page ----------- */
-.container3{
+.container_2{
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1280px;
@@ -135,12 +137,16 @@ header{
 }
 
 .item_2:hover { 
-	color: #FFD72F;
+	color: #ffbb29;
 	transition-duration: 0.5s;
 }
 
+.container_2 .item_2{
+	color: #ffbb29;
+}
+
 /* ------------ Apples Page ----------- */
-.container4{
+.container_3{
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1280px;
@@ -150,8 +156,12 @@ header{
 }
 
 .item_3:hover { 
-	color: #D30F30;
+	color: #f00e0e;
 	transition-duration: 0.5s;
+}
+
+.container_3 .item_3{
+	color: #f00e0e;
 }
 
 /* ------------ Footer ----------- */
