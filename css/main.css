@@ -97,6 +97,18 @@ header{
 }
 
 
+
+
+/* ------------  T A B L E T  ----------- */
+
+@media screen and (min-width: 481px) {
+
+
+/* ------------  D E S K T O P  ----------- */
+
+@media screen and (min-width: 1025px) {
+
+
 /* ------------ Home Page ----------- */
 .container{
 	margin: 0 auto;
@@ -171,4 +183,5 @@ footer{
 	position:absolute;
   	bottom: 190px;
 	margin-left: 50px;
+}
 }
