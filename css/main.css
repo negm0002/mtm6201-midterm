@@ -134,7 +134,7 @@ header{
     background-repeat: no-repeat;
 }
 
-.item_1:hover { 
+.item_2:hover { 
 	color: #FFD72F;
 	transition-duration: 0.5s;
 }
@@ -149,7 +149,7 @@ header{
     background-repeat: no-repeat;
 }
 
-.item_1:hover { 
+.item_3:hover { 
 	color: #D30F30;
 	transition-duration: 0.5s;
 }
