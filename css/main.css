@@ -99,6 +99,44 @@ header{
 
 
 
+
+
+/* lineup class and keyframes */
+
+.lineUp{
+color: #FFFFFF;
+font-size: 30px;
+}
+
+.lineUp{
+position: absolute;
+top: 47%;
+left: 45%;
+transform: translate(-50%, -50%);
+}
+
+.lineUp {
+	animation: 7s anim-lineUp ease-out infinite;
+  }
+  @keyframes anim-lineUp {
+	0% {
+	  opacity: 0;
+	  transform: translateY(50%);
+	}
+	20% {
+	  opacity: 0;
+	}
+	50% {
+	  opacity: 1;
+	  transform: translateY(0%);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0%);
+	}
+  }
+ 
+
 /* ------------  T A B L E T  ----------- */
 
 @media screen and (min-width: 481px) {
