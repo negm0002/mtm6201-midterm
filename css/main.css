@@ -56,34 +56,34 @@ html{
 	font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-.nav-block{
-	display: flex;
-	align-items: center;
+
+.container{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 481px;
+	min-height: 301px;
+	background-image: url("../images/fruits_small.jpg");
+	background-repeat: no-repeat;
 }
 
-ul{
-    display: flex;
-}
 
 .nav-block > a{
 	text-decoration: none;
-	font-size: 46px;
+	font-size: 32px;
 	font-weight: bold;
 	color: #FFFFFF;
-	margin-right: 640px;
+	margin-left: 100px;
+
 }
 
 li > a{
     text-decoration: none;
-	font-size: 26px;
+	font-size: 18px;
 	color: #626262;
 	margin-right: 50px;
 }
 
-header{
-	background-color: #B5B3BE;
-	padding: 28px 50px;
-}
+
 
 .text p{
 	font-size: 20px;
@@ -97,21 +97,32 @@ header{
 }
 
 
-
-
+/* ------------ Footer ----------- */
+footer{
+	font-size: 12px;
+	color: #FFFFFF;
+	position:absolute;
+  	bottom: 20%;
+	margin-left: 50px;
+}
+  
+  
+  
 
 
 /* lineup class and keyframes */
 
 .lineUp{
-color: #FFFFFF;
+color: #e4d296;
 font-size: 30px;
 }
 
+
+
 .lineUp{
 position: absolute;
-top: 47%;
-left: 45%;
+top: 18%;
+left: 40%;
 transform: translate(-50%, -50%);
 }
 
@@ -135,17 +146,75 @@ transform: translate(-50%, -50%);
 	  transform: translateY(0%);
 	}
   }
+
+
+  
+  
+  
+
+
+
  
 
 /* ------------  T A B L E T  ----------- */
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 768px) {
+
+	.container{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 768px;
+		min-height: 800px;
+		background-image: url("../images/fruits_medium.jpg");
+		background-repeat: no-repeat;
+	}
+
+	.nav-block > a{
+		text-decoration: none;
+		font-size: 32px;
+		font-weight: bold;
+		color: #FFFFFF;
+	
+		
+	}
+	
+	li > a{
+		text-decoration: none;
+		font-size: 18px;
+		color: #626262;
+		margin-right: 50px;
+		margin-left: 100px;
+	}
+
+
+	.lineUp{
+		position: absolute;
+		top: 27%;
+		left: 40%;
+
+		}
+
+
+}
 
 
 /* ------------  D E S K T O P  ----------- */
 
 @media screen and (min-width: 1025px) {
 
+	.nav-block{
+		display: flex;
+		align-items: center;
+	}
+	
+	ul{
+		display: flex;
+	}
+
+	header{
+		background-color: #B5B3BE;
+		padding: 28px 50px;
+	}
 
 /* ------------ Home Page ----------- */
 .container{
@@ -155,7 +224,39 @@ transform: translate(-50%, -50%);
 	min-height: 800px;
 	background-image: url("../images/fruits.jpg");
     background-repeat: no-repeat;
+
+	
+
+	
 }
+
+
+.nav-block > a{
+		
+	font-size: 46px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-right: 450px;
+	margin-left: 10px;
+}
+
+
+li > a{
+	text-decoration: none;
+	font-size: 26px;
+	color: #626262;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+
+.lineUp{
+	position: absolute;
+	top: 47%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+	}
+
 
 /* ------------ Bananas Page ----------- */
 .container_1{
@@ -214,12 +315,5 @@ transform: translate(-50%, -50%);
 	color: #f00e0e;
 }
 
-/* ------------ Footer ----------- */
-footer{
-	font-size: 12px;
-	color: #FFFFFF;
-	position:absolute;
-  	bottom: 190px;
-	margin-left: 50px;
-}
+
 }
