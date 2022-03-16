@@ -61,8 +61,38 @@ html{
 	margin: 0 auto;
 	width: 100%;
 	max-width: 481px;
-	min-height: 301px;
+	min-height: 800px;
 	background-image: url("../images/fruits_small.jpg");
+	background-repeat: no-repeat;
+}
+
+
+.container_1{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 481px;
+	min-height: 800px;
+	background-image: url("../images/bananas_small.jpg");
+	background-repeat: no-repeat;
+}
+
+
+.container_2{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 481px;
+	min-height: 800px;
+	background-image: url("../images/oranges_small.jpg");
+	background-repeat: no-repeat;
+}
+
+
+.container_3{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 481px;
+	min-height: 800px;
+	background-image: url("../images/apples_small.jpg");
 	background-repeat: no-repeat;
 }
 
@@ -72,7 +102,7 @@ html{
 	font-size: 32px;
 	font-weight: bold;
 	color: #FFFFFF;
-	margin-left: 5%;
+	margin-left: 8%;
 
 }
 
@@ -82,20 +112,19 @@ li > a{
 	font-size: 18px;
 	color: #626262;
 	margin-right: 50px;
-	margin-left: 5%;
+	margin-left: 8%;
 }
 
 
 .text p{
-	font-size: 20px;
-	line-height: 1.2;
+	font-size: 16px;
 	color: #FFFFFF;
-	width: 55%;
+	width: 75%;
 	height: 20%;
 	text-align: center;
-	margin-top: 33%;
-	margin-left: 20%;;
-}
+	margin-top: 25%;
+	margin-left: 15%;
+}	
 
 
 /* ------------ Nav Hover Effect ----------- */
@@ -191,11 +220,13 @@ transform: translate(-50%, -50%);
 	.nav-block > a{
 		font-size: 32px;
 		font-weight: bold;
+		margin-left: 8%;
 	}
 	
 
 	li > a{
 		font-size: 18px;
+		margin-left: 8%;
 	}
 
 
@@ -219,11 +250,36 @@ transform: translate(-50%, -50%);
 
 	/* ------------ Tablet Bananas Page ----------- */
 
+	.container_1{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 768px;
+		min-height: 800px;
+		background-image: url("../images/bananas_medium.jpg");
+		background-repeat: no-repeat;
+	}
 
 	/* ------------ Tablet Oranges Page ----------- */
 
+	.container_2{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 768px;
+		min-height: 800px;
+		background-image: url("../images/oranges_medium.jpg");
+		background-repeat: no-repeat;
+	}
 
 	/* ------------ Tablet Apples Page ----------- */
+
+	.container_3{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 768px;
+		min-height: 800px;
+		background-image: url("../images/apples_medium.jpg");
+		background-repeat: no-repeat;
+	}
 }
 
 
@@ -263,6 +319,18 @@ transform: translate(-50%, -50%);
 	}
 
 
+	.text p{
+		font-size: 20px;
+		line-height: 1.2;
+		color: #FFFFFF;
+		width: 55%;
+		height: 20%;
+		text-align: center;
+		margin-top: 33%;
+		margin-left: 20%;
+	}
+
+
 	.lineUp{
 		position: absolute;
 		top: 47%;
@@ -282,7 +350,6 @@ transform: translate(-50%, -50%);
     	background-repeat: no-repeat;	
 	}
 
-
 	/* ------------ Desktop Bananas Page ----------- */
 
 	.container_1{
@@ -294,7 +361,6 @@ transform: translate(-50%, -50%);
     	background-repeat: no-repeat;
 	}
 
-
 	/* ------------ Desktop Oranges Page ----------- */
 
 	.container_2{
@@ -305,7 +371,6 @@ transform: translate(-50%, -50%);
 		background-image: url("../images/oranges.jpg");
     	background-repeat: no-repeat;
 	}
-
 
 	/* ------------ Desktop Apples Page ----------- */
 
