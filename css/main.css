@@ -97,6 +97,34 @@ li > a{
 }
 
 
+.item_1:hover { 
+	color: #FFE960;
+	transition-duration: 0.5s;
+}
+
+.container_1 .item_1{
+	color: #FFE960;
+}
+
+.item_2:hover { 
+	color: #ffbb29;
+	transition-duration: 0.5s;
+}
+
+.container_2 .item_2{
+	color: #ffbb29;
+}
+
+.item_3:hover { 
+	color: #f00e0e;
+	transition-duration: 0.5s;
+}
+
+.container_3 .item_3{
+	color: #f00e0e;
+}
+
+
 /* ------------ Footer ----------- */
 footer{
 	font-size: 12px;
@@ -268,14 +296,7 @@ li > a{
     background-repeat: no-repeat;
 }
 
-.item_1:hover { 
-	color: #FFE960;
-	transition-duration: 0.5s;
-}
 
-.container_1 .item_1{
-	color: #FFE960;
-}
 
 /* ------------ Oranges Page ----------- */
 .container_2{
@@ -287,14 +308,7 @@ li > a{
     background-repeat: no-repeat;
 }
 
-.item_2:hover { 
-	color: #ffbb29;
-	transition-duration: 0.5s;
-}
 
-.container_2 .item_2{
-	color: #ffbb29;
-}
 
 /* ------------ Apples Page ----------- */
 .container_3{
@@ -306,14 +320,7 @@ li > a{
     background-repeat: no-repeat;
 }
 
-.item_3:hover { 
-	color: #f00e0e;
-	transition-duration: 0.5s;
-}
 
-.container_3 .item_3{
-	color: #f00e0e;
-}
 
 
 }
