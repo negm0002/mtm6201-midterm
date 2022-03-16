@@ -49,8 +49,8 @@ table {
 
 
 
-/* ------------  D E F A U L T S  ----------- */
 
+/* ------------  D E F A U L T S  ----------- */
 
 html{
 	font-family: 'M PLUS Rounded 1c', sans-serif;
@@ -72,17 +72,18 @@ html{
 	font-size: 32px;
 	font-weight: bold;
 	color: #FFFFFF;
-	margin-left: 100px;
+	margin-left: 5%;
 
 }
+
 
 li > a{
     text-decoration: none;
 	font-size: 18px;
 	color: #626262;
 	margin-right: 50px;
+	margin-left: 5%;
 }
-
 
 
 .text p{
@@ -97,28 +98,35 @@ li > a{
 }
 
 
+/* ------------ Nav Hover Effect ----------- */
+
 .item_1:hover { 
 	color: #FFE960;
 	transition-duration: 0.5s;
 }
 
+
 .container_1 .item_1{
 	color: #FFE960;
 }
+
 
 .item_2:hover { 
 	color: #ffbb29;
 	transition-duration: 0.5s;
 }
 
+
 .container_2 .item_2{
 	color: #ffbb29;
 }
+
 
 .item_3:hover { 
 	color: #f00e0e;
 	transition-duration: 0.5s;
 }
+
 
 .container_3 .item_3{
 	color: #f00e0e;
@@ -126,6 +134,7 @@ li > a{
 
 
 /* ------------ Footer ----------- */
+
 footer{
 	font-size: 12px;
 	color: #FFFFFF;
@@ -134,17 +143,13 @@ footer{
 	margin-left: 50px;
 }
   
-  
-  
 
-
-/* lineup class and keyframes */
+/* ------------ lineup class and keyframes ----------- */
 
 .lineUp{
 color: #e4d296;
 font-size: 30px;
 }
-
 
 
 .lineUp{
@@ -154,10 +159,13 @@ left: 40%;
 transform: translate(-50%, -50%);
 }
 
+
 .lineUp {
 	animation: 7s anim-lineUp ease-out infinite;
-  }
-  @keyframes anim-lineUp {
+}
+
+
+@keyframes anim-lineUp {
 	0% {
 	  opacity: 0;
 	  transform: translateY(50%);
@@ -173,20 +181,25 @@ transform: translate(-50%, -50%);
 	  opacity: 1;
 	  transform: translateY(0%);
 	}
-  }
+}
 
-
-  
-  
-  
-
-
-
- 
 
 /* ------------  T A B L E T  ----------- */
 
 @media screen and (min-width: 768px) {
+
+	.nav-block > a{
+		font-size: 32px;
+		font-weight: bold;
+	}
+	
+
+	li > a{
+		font-size: 18px;
+	}
+
+
+	/* ------------ Tablet Home Page ----------- */
 
 	.container{
 		margin: 0 auto;
@@ -197,32 +210,20 @@ transform: translate(-50%, -50%);
 		background-repeat: no-repeat;
 	}
 
-	.nav-block > a{
-		text-decoration: none;
-		font-size: 32px;
-		font-weight: bold;
-		color: #FFFFFF;
-	
-		
-	}
-	
-	li > a{
-		text-decoration: none;
-		font-size: 18px;
-		color: #626262;
-		margin-right: 50px;
-		margin-left: 100px;
-	}
-
 
 	.lineUp{
 		position: absolute;
 		top: 27%;
 		left: 40%;
+	}
 
-		}
+	/* ------------ Tablet Bananas Page ----------- */
 
 
+	/* ------------ Tablet Oranges Page ----------- */
+
+
+	/* ------------ Tablet Apples Page ----------- */
 }
 
 
@@ -235,92 +236,85 @@ transform: translate(-50%, -50%);
 		align-items: center;
 	}
 	
+
 	ul{
 		display: flex;
 	}
+
 
 	header{
 		background-color: #B5B3BE;
 		padding: 28px 50px;
 	}
 
-/* ------------ Home Page ----------- */
-.container{
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1280px;
-	min-height: 800px;
-	background-image: url("../images/fruits.jpg");
-    background-repeat: no-repeat;
 
-	
-
-	
-}
-
-
-.nav-block > a{
-		
-	font-size: 46px;
-	font-weight: bold;
-	color: #FFFFFF;
-	margin-right: 450px;
-	margin-left: 10px;
-}
-
-
-li > a{
-	text-decoration: none;
-	font-size: 26px;
-	color: #626262;
-	margin-right: 50px;
-	margin-left: 50px;
-}
-
-
-.lineUp{
-	position: absolute;
-	top: 47%;
-	left: 45%;
-	transform: translate(-50%, -50%);
+	.nav-block > a{
+		font-size: 46px;
+		font-weight: bold;
+		margin-right: 450px;
+		margin-left: 10px;
 	}
 
 
-/* ------------ Bananas Page ----------- */
-.container_1{
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1280px;
-	min-height: 800px;
-	background-image: url("../images/bananas.jpg");
-    background-repeat: no-repeat;
-}
+	li > a{
+		font-size: 26px;
+		margin-right: 50px;
+		margin-left: 50px;
+	}
 
 
+	.lineUp{
+		position: absolute;
+		top: 47%;
+		left: 45%;
+		transform: translate(-50%, -50%);
+	}
 
-/* ------------ Oranges Page ----------- */
-.container_2{
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1280px;
-	min-height: 800px;
-	background-image: url("../images/oranges.jpg");
-    background-repeat: no-repeat;
-}
+	
+	/* ------------ Desktop Home Page ----------- */
 
-
-
-/* ------------ Apples Page ----------- */
-.container_3{
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1280px;
-	min-height: 800px;
-	background-image: url("../images/apples.jpg");
-    background-repeat: no-repeat;
-}
+	.container{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1280px;
+		min-height: 800px;
+		background-image: url("../images/fruits.jpg");
+    	background-repeat: no-repeat;	
+	}
 
 
+	/* ------------ Desktop Bananas Page ----------- */
+
+	.container_1{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1280px;
+		min-height: 800px;
+		background-image: url("../images/bananas.jpg");
+    	background-repeat: no-repeat;
+	}
 
 
+	/* ------------ Desktop Oranges Page ----------- */
+
+	.container_2{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1280px;
+		min-height: 800px;
+		background-image: url("../images/oranges.jpg");
+    	background-repeat: no-repeat;
+	}
+
+
+	/* ------------ Desktop Apples Page ----------- */
+
+	.container_3{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 1280px;
+		min-height: 800px;
+		background-image: url("../images/apples.jpg");
+    	background-repeat: no-repeat;
+	}
 }
